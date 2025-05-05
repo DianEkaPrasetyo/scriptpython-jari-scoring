@@ -58,7 +58,7 @@ for _ in range(jumlah_kontrak):
     for p in range(1, max_periode + 1):
         jatuh_tempo = tanggal_akad + relativedelta(months=p)
 
-        # Pilih jenis pelunasan: tepat waktu, lebih cepat, atau terlambat
+        # Random jenis pelunasan: tepat waktu, lebih cepat, atau terlambat
         jenis_pelunasan = random.choices(
             ['tepat_waktu', 'lebih_cepat', 'terlambat'],
             weights=[0.5, 0.2, 0.3],  # 50% tepat waktu, 20% lebih cepat, 30% terlambat
