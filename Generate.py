@@ -1,4 +1,4 @@
-98% penyimpanan digunakan … Jika ruang penyimpanan sudah penuh, Anda tidak dapat menyimpan ke Drive, mencadangkan Google Foto, atau menggunakan Gmail. Dapatkan penyimpanan sebesar 30 GB seharga Rp 14.500,00 Rp 3.500,00/bulan untuk 3 bulan.
+
 import pandas as pd
 from faker import Faker
 import random
